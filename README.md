@@ -51,10 +51,10 @@ I used the Expo Notifications API reference to choose a one-shot time-interval t
 
 ## Install and run
 
-Use Node.js 20.19.4 or newer and npm. Replace `YOUR_GITHUB_USERNAME` and the repository name as needed after publishing.
+Use Node.js 20.19.4 or newer and npm. 
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/texpayer.git
+git clone https://github.com/anjaliperera2108-hue/texpayer.git
 cd texpayer
 npm ci
 npm start
@@ -79,14 +79,17 @@ The raw screenshots and the assignment report are in [evidence/](evidence/). The
 
 ## Publish to GitHub
 
-Fill in the name and student ID above. Create an empty repository named `texpayer` in your GitHub account, then run these commands from the extracted project folder. Use your own repository URL and follow your university's repository visibility instructions.
-
 ```bash
 git init -b main
 git add .
 git commit -m "Complete Assignment 01 QuickTax Expo Router app"
-git remote add origin https://github.com/YOUR_GITHUB_USERNAME/texpayer.git
+git remote add origin https://github.com/anjaliperera2108-hue/texpayer.git
 git push -u origin main
 ```
 
 The repository ignores environment files, Expo caches, dependencies, and Git metadata. The package lockfile is committed so `npm ci` installs the verified dependency set.
+- **Google Drive Demo Link:** https://drive.google.com/file/d/1WmkASejSzbrBwE31uavQMEpEHGxvxFFJ/view?usp=sharing
+- 
+- 
+
+)
