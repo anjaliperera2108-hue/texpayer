@@ -1,4 +1,4 @@
-# Name: [Your Name] - ID: [Your Student ID]
+# Name: A.A.D.A.Perera - ID: FGS/MSc/CS/2025/002
 
 ## QuickTax
 
