@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "QuickTax",
+    "slug": "texpayer",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "quicktax",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "bundleIdentifier": "com.quicktax.texpayer",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.quicktax.texpayer",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#E9F4DF"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-notifications",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/quicktax-vehicles.png",
+          "imageWidth": 180,
+          "resizeMode": "contain",
+          "backgroundColor": "#F3F7F2"
+        }
+      ]
+    ]
+  }
+}
