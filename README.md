@@ -59,9 +59,6 @@ cd texpayer
 npm ci
 npm start
 ```
-
-With the supplied ZIP, extract it and run `npm ci` and `npm start` inside `texpayer`. Scan the Expo QR code with an SDK 54-compatible Expo Go app, or press **a** for a running Android emulator or **i** for an iOS Simulator on macOS. Use `npm run web` for a browser preview. No `.env` file is needed.
-
 ```bash
 npm run lint
 npm run typecheck
@@ -88,8 +85,6 @@ git push -u origin main
 ```
 
 The repository ignores environment files, Expo caches, dependencies, and Git metadata. The package lockfile is committed so `npm ci` installs the verified dependency set.
-- **Google Drive Demo Link:** https://drive.google.com/file/d/1WmkASejSzbrBwE31uavQMEpEHGxvxFFJ/view?usp=sharing
-- 
-- 
-
+- **Google Drive Demo Link:** https://drive.google.com/file/d/1imWPPbcMovcXU5OHnArivmLGSopowUAp/view?usp=sharing
+  
 )
